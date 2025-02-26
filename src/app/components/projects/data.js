@@ -12,7 +12,7 @@ import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
 const projectsData = [
-    {   name:"bytewise", 
+    {   name:"Bytewise", 
         image:bytewise,
         tech:"react  |  tailwindcss",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
@@ -23,7 +23,7 @@ const projectsData = [
 
 
     },
-    {   name:"positivius", 
+    {   name:"Positivius layout", 
         image:positivius,
         tech:"react  |  tailwindcss",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
@@ -33,7 +33,7 @@ const projectsData = [
         linkIcon:<HiOutlineExternalLink />,
 
     },
-    {   name:"dice", 
+    {   name:"Dice Game", 
         image:dice,
         tech:"html  |  css  |  javascript",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
@@ -42,14 +42,14 @@ const projectsData = [
         githubIcon:<FiGithub />,
         linkIcon:<HiOutlineExternalLink />,
     },
-    {   name:"figma", 
+    {   name:"Figma layout", 
         image:figma,
         tech:"html  |  css  |  javascript",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
         link:"https://talha-tn.github.io/Figma-layout/",
         date:"2024"
     },
-    {   name:"movies", 
+    {   name:"Cinemate", 
         image:movies,
         tech:"react  | tailwindcss  | javascript",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
@@ -58,7 +58,7 @@ const projectsData = [
         githubIcon:<FiGithub />,
         linkIcon:<HiOutlineExternalLink />,
     },
-    {   name:"old portfolio", 
+    {   name:"Old Portfolio", 
         image:portfolio,
         tech:"html  | css  |  javascript",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
@@ -67,7 +67,7 @@ const projectsData = [
         githubIcon:<FiGithub />,
         linkIcon:<HiOutlineExternalLink />,
     },
-    {   name:"shopmate", 
+    {   name:"Shopmate", 
         image:shopmate,
         tech:"react | tailwindcss  |  redux",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
@@ -76,7 +76,7 @@ const projectsData = [
         githubIcon:<FiGithub />,
         linkIcon:<HiOutlineExternalLink />,
     },
-    {   name:"todo app", 
+    {   name:"Todo App", 
         image:todo,
         tech:"html  |  css  | react",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
@@ -86,7 +86,7 @@ const projectsData = [
         linkIcon:<HiOutlineExternalLink />,
     },
     {
-        name:"wordcounter",
+        name:"Word Counter",
         image:wordcounter,
         tech:"react  | tailwindcss",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
@@ -96,7 +96,7 @@ const projectsData = [
         linkIcon:<HiOutlineExternalLink />,
     },
     {
-        name:"bytewiseLearning",
+        name:"Bytewise Learning",
         image:bytewiseLearning,
         tech:"react  | tailwindcss",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
