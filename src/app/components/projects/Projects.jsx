@@ -1,38 +1,10 @@
-// import React from 'react'
-// import projectsData from './data'
-// import Image from 'next/image'
-// const Projects = () => {
-//   return (
-//     <div className=''>
-//         <h2 className=''>Projects</h2>
-//         <div className="flex flex-col justify-center flex-wrap pl-10 ">
-//             {projectsData.map((project)=>(
-//                 <div key={project.name} className="w-[400px]" >
-//                     <Image className='w-[60%]' src={project.image} alt='project image' priority ></Image>
-//                     <div className="">
-//                         <p className=''>{project.tech}</p>
-//                         <span className=''>{project.githubIcon}</span>
-//                         <span className=''>{project.linkIcon}</span>
-//                     </div>
-//                     <div className="">
-//                         <p className=''>{project.name}</p>
-//                         <p className=''>{project.date}</p>
-//                     </div>
-//                 </div>
-//             ))}
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Projects
 import React from 'react'
 import projectsData from './data'
 import Image from 'next/image'
 
 const Projects = () => {
   return (
-    <div className="py-10 px-6 md:px-20  text-white">
+    <div className="py-10 px-6 md:px-20 pb-10 md:pb-20  text-white">
       <h2 className="text-3xl font-semibold mb-6 text-center">Projects</h2>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
