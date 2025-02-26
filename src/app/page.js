@@ -2,7 +2,7 @@ import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
-import WorkDetails from "./work/WorkDetails";
+import WorkDetails from "./components/work/WorkDetails";
 export default function Home() {
   return (
     <>
