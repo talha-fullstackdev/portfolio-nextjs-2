@@ -34,7 +34,7 @@ const Footer = () => {
     },
   ]
   return (
-    <div className="dark:bg-slate-200 dark:text-slate-500 pt-32 "> 
+    <div className=" dark:text-slate-500 pt-32 "> 
     <div className='flex justify-center gap-7 max-w-[600px] px-10 m-auto '>
        {data.map((item)=>(
         <div key={item.name} className="">

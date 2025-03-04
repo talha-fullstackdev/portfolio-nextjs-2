@@ -30,10 +30,10 @@ const Navbar = () => {
           <span className="absolute inset-0 border-2 border-blue-400 rounded-md animate-border-glow"></span>
           <span className="relative z-10 dark:text-black ">Resume</span>
         </a>
-       {darkMode ? <button onClick={handleDarkMode} className="text-3xl dark:hover:text-orange-300 dark:text-slate-600">
-          <IoSunnyOutline />
+       {darkMode ? <button onClick={handleDarkMode}  className="text-3xl dark:hover:text-slate-400 "  >
+       <IoMoon />
         </button> :
-        <button className="text-3xl hover:text-slate-600 " onClick={handleDarkMode}><IoMoon /></button>}
+        <button className="text-3xl hover:text-orange-300 dark:text-slate-600"  onClick={handleDarkMode} title="light"> <IoSunnyOutline /></button>}
       </ul>
     </>
   );

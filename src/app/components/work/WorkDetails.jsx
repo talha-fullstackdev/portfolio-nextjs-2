@@ -11,7 +11,7 @@ const WorkDetails = () => {
   };
 
   return (
-    <div className="px-6 md:px-12 md:pt-10 md:pb-20 dark:bg-slate-200">
+    <div className="px-6 md:px-12 md:pt-10 md:pb-20 ">
       <h2 className="text-xl md:text-4xl text-center font-semibold text-white dark:text-slate-500 mb-6 md:tracking-wide">
         Where I've Worked
       </h2>
@@ -40,7 +40,7 @@ const WorkDetails = () => {
                <a href={selectedData.link} target="_blank"> {selectedData.company}</a>
               </span>
             </h2>
-            <p className="text-white text-sm md:mt-2 md:text-lg">
+            <p className="text-white dark:text-slate-500 text-sm md:mt-2 md:text-lg">
               {selectedData.date}
             </p>
             <ul className="list-disc ml-5 mt-2 text-slate-400 dark:text-slate-500 md:text-[18px] md:w-[800px]">

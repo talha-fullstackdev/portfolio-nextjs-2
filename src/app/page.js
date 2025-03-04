@@ -8,7 +8,7 @@ import GetInTouch from "./components/get in touch/GetInTouch";
 import Footer from "./components/footer/Footer";
 export default function Home() {
   return (
-    <>
+    <div className="dark:bg-white">
      <Header/>
      <Hero/>
      <About/>
@@ -17,6 +17,6 @@ export default function Home() {
      <Projects/>
      <GetInTouch/>
      <Footer/>
-    </>
+    </div>
   );
 }
