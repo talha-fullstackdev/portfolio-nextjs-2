@@ -2,7 +2,7 @@ import React from "react";
 
 const GetInTouch = () => {
   return (
-    <div className="px-10 text-center mt-32 max-w-[700px] m-auto md:pb-20">
+    <div className="px-10 text-center mt-28 max-w-[700px] m-auto md:pb-20">
       <p className="text-blue-400 md:text-xl">what's Next</p>
       <p className="mt-4 text-2xl md:text-4xl font-semibold">Get In Touch</p>
       <p className="mt-4 text-slate-400 md:text-lg">
