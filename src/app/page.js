@@ -4,6 +4,7 @@ import About from "./components/about/About";
 import Services from "./components/services/Services";
 import WorkDetails from "./components/work/WorkDetails";
 import Projects from "./components/projects/Projects";
+import GetInTouch from "./components/get in touch/GetInTouch";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
      <Services/>
      <WorkDetails/>
      <Projects/>
+     <GetInTouch/>
     </>
   );
 }
