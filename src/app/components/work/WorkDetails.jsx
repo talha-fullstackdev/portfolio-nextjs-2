@@ -12,7 +12,7 @@ const WorkDetails = () => {
 
   return (
     <div className="px-6 md:px-12 md:pt-10 md:pb-20 dark:bg-white">
-      <h2 className="text-xl md:text-4xl text-center font-semibold text-white mb-6 md:tracking-wide">
+      <h2 className="text-xl md:text-4xl text-center font-semibold text-white dark:text-slate-500 mb-6 md:tracking-wide">
         Where I've Worked
       </h2>
 
@@ -34,7 +34,7 @@ const WorkDetails = () => {
         </div>
         <div className="ml-4">
           <div className="mb-6 p-4 border-l-4 border-blue-500">
-            <h2 className="text-xl md:text-2xl font-bold text-white">
+            <h2 className="text-xl md:text-2xl font-bold text-white dark:text-slate-500">
               {selectedData.position}
               <span  className="text-blue-600 font-semibold text-xl cursor-pointer hover:underline hover:underline-offset-4">
                <a href={selectedData.link} target="_blank"> {selectedData.company}</a>
@@ -43,7 +43,7 @@ const WorkDetails = () => {
             <p className="text-white text-sm md:mt-2 md:text-lg">
               {selectedData.date}
             </p>
-            <ul className="list-disc ml-5 mt-2 text-slate-400 md:text-[18px] md:w-[800px]">
+            <ul className="list-disc ml-5 mt-2 text-slate-400 dark:text-slate-500 md:text-[18px] md:w-[800px]">
               <li>{selectedData.para1}</li>
               <li>{selectedData.para2}</li>
               <li>{selectedData.para3}</li>

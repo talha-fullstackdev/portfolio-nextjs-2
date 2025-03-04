@@ -9,7 +9,7 @@ const Projects = () => {
   const visibleProjects = showAll ? projectsData : projectsData.slice(0, 6);
 
   return (
-    <div className="py-10 px-6 md:px-20 pb-10 md:pb-20 text-white dark:bg-white">
+    <div className="py-10 px-6 md:px-20 pb-10 md:pb-20 text-white dark:text-slate-500 dark:bg-white">
       <h2 className="text-3xl font-semibold mb-6 text-center">Projects</h2>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 transition-all duration-500 ease-in-out">
@@ -33,8 +33,8 @@ const Projects = () => {
             </div>
 
             {/* Tech Stack */}
-            <div className="flex items-center justify-between text-gray-400 text-sm mt-3 md:mt-6">
-              <p className="text-slate-400">{project.tech}</p>
+            <div className="flex items-center justify-between text-gray-400 dark:text-slate-500 text-sm mt-3 md:mt-6">
+              <p className="text-slate-400 dark:text-slate-500">{project.tech}</p>
               <div className="flex gap-2">
                 <a className="text-lg hover:text-blue-400 cursor-pointer" href={project.github} target='_blank'>{project.githubIcon}</a>
                 <a className="text-lg hover:text-blue-400 cursor-pointer" href={project.link} target='_blank'>{project.linkIcon}</a>
@@ -46,7 +46,7 @@ const Projects = () => {
               <a href={project.link} target='_blank'>
                 <p className="text-lg font-medium cursor-pointer hover:text-blue-400 hover:underline hover:underline-offset-4">{project.name}</p>
               </a>
-              <p className="text-gray-400">{project.date}</p>
+              <p className="text-gray-400 dark:text-slate-500">{project.date}</p>
             </div>
           </div>
         ))}

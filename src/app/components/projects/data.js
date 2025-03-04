@@ -47,7 +47,9 @@ const projectsData = [
         tech:"html  |  css  |  javascript",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
         link:"https://talha-tn.github.io/Figma-layout/",
-        date:"2024"
+        date:"2024",
+        githubIcon:<FiGithub />,
+        linkIcon:<HiOutlineExternalLink />,
     },
     {   name:"Cinemate", 
         image:movies,

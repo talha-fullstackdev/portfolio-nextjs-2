@@ -34,7 +34,7 @@ const Footer = () => {
     },
   ]
   return (
-    <div className="dark:bg-white"> 
+    <div className="dark:bg-white dark:text-slate-500"> 
     <div className='flex justify-center gap-7 pt-32 max-w-[600px] px-10 m-auto '>
        {data.map((item)=>(
         <div key={item.name} className="">
@@ -43,7 +43,7 @@ const Footer = () => {
        ))}
         
     </div>
-    <p className='mt-6 text-[16px] text-slate-400 text-center pb-10'>Design & Built By Talha Nawaz</p>
+    <p className='mt-6 text-[16px] text-slate-400 dark:text-slate-500 text-center pb-10'>Design & Built By Talha Nawaz</p>
     </div>
 
   )

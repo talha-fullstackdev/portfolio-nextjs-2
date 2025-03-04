@@ -5,7 +5,7 @@ import Image from "next/image";
 const ServicesDetails = () => {
   return (
     <div className="mt-10 px-6 flex flex-col gap-8">
-      <h2 className="text-center text-3xl font-semibold text-gray-400">
+      <h2 className="text-center text-3xl font-semibold text-gray-400 dark:text-slate-500">
         Full Stack Development
       </h2>
 
@@ -31,7 +31,7 @@ const ServicesDetails = () => {
         ))}
       </div>
 
-      <div className="mt-6 text-slate-400 md:mt-4 ">
+      <div className="mt-6 text-slate-400 dark:text-slate-500 md:mt-4 ">
         <p className="mt-2">
           Building responsive static/dynamic websites using Next.js
         </p>

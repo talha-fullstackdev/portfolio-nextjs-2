@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Left Content */}
       <div className="flex flex-col gap-4 max-w-2xl">
         <p className="text-blue-400 text-lg md:text-xl">Hi, my name is</p>
-        <h1 className="text-slate-200 text-3xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="text-slate-200 dark:text-slate-500 text-3xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
           Talha Nawaz.
         </h1>
         <p className="text-slate-400 text-2xl font-semibold sm:text-3xl md:text-5xl">
