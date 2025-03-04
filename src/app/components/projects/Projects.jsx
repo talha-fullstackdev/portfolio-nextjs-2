@@ -1,28 +1,34 @@
-import React from 'react'
-import projectsData from './data'
-import Image from 'next/image'
+
+"use client"
+import React, { useState } from 'react';
+import projectsData from './data';
+import Image from 'next/image';
 
 const Projects = () => {
+  const [showAll, setShowAll] = useState(false);
+  const visibleProjects = showAll ? projectsData : projectsData.slice(0, 6);
+
   return (
-    <div className="py-10 px-6 md:px-20 pb-10 md:pb-20  text-white">
+    <div className="py-10 px-6 md:px-20 pb-10 md:pb-20 text-white">
       <h2 className="text-3xl font-semibold mb-6 text-center">Projects</h2>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {projectsData.map((project) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 transition-all duration-500 ease-in-out">
+        {visibleProjects.map((project) => (
           <div 
             key={project.name} 
-            className=" p-4 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl"
+            className="p-4 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl"
           >
             {/* Project Image */}
-            <div className="relative w-full h-52  overflow-hidden">
-              <a href={project.link} target='_blank'><Image 
-                src={project.image} 
-                alt="Project image" 
-                layout="fill" 
-                objectFit="cover"
-                className="rounded-xl cursor-pointer"
-                priority
-              />
+            <div className="relative w-full h-52 overflow-hidden">
+              <a href={project.link} target='_blank'>
+                <Image 
+                  src={project.image} 
+                  alt="Project image" 
+                  layout="fill" 
+                  objectFit="cover"
+                  className="rounded-xl cursor-pointer"
+                  priority
+                />
               </a>
             </div>
 
@@ -38,15 +44,27 @@ const Projects = () => {
             {/* Project Name & Year */}
             <div className="flex items-center justify-between mt-3">
               <a href={project.link} target='_blank'>
-              <p className="text-lg font-medium cursor-pointer hover:text-blue-400 hover:underline hover:underline-offset-4">{project.name}</p>
+                <p className="text-lg font-medium cursor-pointer hover:text-blue-400 hover:underline hover:underline-offset-4">{project.name}</p>
               </a>
               <p className="text-gray-400">{project.date}</p>
             </div>
           </div>
         ))}
       </div>
-    </div>
-  )
-}
 
-export default Projects
+      {/* See More / See Less Button */}
+      {projectsData.length > 6 && (
+        <div className="flex justify-center mt-8">
+          <button 
+            onClick={() => setShowAll(!showAll)} 
+            className="px-6 py-2 border border-blue-400 text-blue-400 hover:text-blue-200 rounded-lg transition-all duration-300"
+          >
+            {showAll ? 'show Less' : 'Show More'}
+          </button>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Projects;
