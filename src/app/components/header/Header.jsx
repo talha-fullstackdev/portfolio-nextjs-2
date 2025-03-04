@@ -3,7 +3,7 @@ import Logo from './Logo'
 import Navbar from './Navbar'
 const Header = () => {
   return (
-    <div className='flex dark:bg-white flex-col gap-4 items-center md:flex-row md:justify-between md:px-14 md:pt-4 flex-wrap '>
+    <div className='flex dark:bg-slate-200 flex-col gap-4 items-center md:flex-row md:justify-between md:px-14 md:pt-4 flex-wrap '>
         <Logo/>
         <Navbar/>
     </div>

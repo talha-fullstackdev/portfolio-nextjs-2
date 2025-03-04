@@ -34,8 +34,8 @@ const Footer = () => {
     },
   ]
   return (
-    <div className="dark:bg-white dark:text-slate-500"> 
-    <div className='flex justify-center gap-7 pt-32 max-w-[600px] px-10 m-auto '>
+    <div className="dark:bg-slate-200 dark:text-slate-500 pt-32 "> 
+    <div className='flex justify-center gap-7 max-w-[600px] px-10 m-auto '>
        {data.map((item)=>(
         <div key={item.name} className="">
           <a className='text-2xl cursor-pointer hover:text-blue-400' title={item.name} href={item.link}>{item.icon}</a>
