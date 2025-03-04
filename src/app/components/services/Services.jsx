@@ -4,7 +4,7 @@ import ServicesDetails from './ServicesDetails'
 
 const Services = () => {
   return (
-    <div className='px-10 md:mt-10  md:px-12 '> 
+    <div className='dark:bg-white px-10 md:pt-10  md:px-12 '> 
         <h2 className='text-3xl text-white font-bold text-center md:tracking-wide'>What I Do</h2>
         <div className="flex flex-col-reverse md:flex-row md:justify-center md:gap-8">
         <ServicesAnimation/>

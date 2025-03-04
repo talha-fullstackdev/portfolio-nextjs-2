@@ -34,8 +34,8 @@ const Footer = () => {
     },
   ]
   return (
-    <> 
-    <div className='flex justify-center gap-7 mt-32 max-w-[600px] px-10 m-auto '>
+    <div className="dark:bg-white"> 
+    <div className='flex justify-center gap-7 pt-32 max-w-[600px] px-10 m-auto '>
        {data.map((item)=>(
         <div key={item.name} className="">
           <a className='text-2xl cursor-pointer hover:text-blue-400' title={item.name} href={item.link}>{item.icon}</a>
@@ -44,7 +44,7 @@ const Footer = () => {
         
     </div>
     <p className='mt-6 text-[16px] text-slate-400 text-center pb-10'>Design & Built By Talha Nawaz</p>
-    </>
+    </div>
 
   )
 }

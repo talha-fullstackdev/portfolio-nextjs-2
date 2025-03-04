@@ -11,7 +11,7 @@ const WorkDetails = () => {
   };
 
   return (
-    <div className="px-6 md:px-12 md:mt-10 md:pb-20">
+    <div className="px-6 md:px-12 md:pt-10 md:pb-20 dark:bg-white">
       <h2 className="text-xl md:text-4xl text-center font-semibold text-white mb-6 md:tracking-wide">
         Where I've Worked
       </h2>

@@ -5,7 +5,7 @@ import profileImage from '../../../assets/images/profile.webp'; // Correct impor
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center md:justify-around gap-8 px-5 text-center md:flex-row md:text-left md:gap-14 md:px-16 md:mt-20">
+    <div className=" dark:bg-white flex flex-col items-center md:justify-around gap-8 px-5 text-center md:flex-row md:text-left md:gap-14 md:px-16 md:pt-20">
       
       {/* Left Content */}
       <div className="flex flex-col gap-4 max-w-2xl">

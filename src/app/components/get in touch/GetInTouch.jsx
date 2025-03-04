@@ -2,7 +2,8 @@ import React from "react";
 
 const GetInTouch = () => {
   return (
-    <div className="px-10 text-center mt-28 max-w-[700px] m-auto md:pb-20">
+    <div className="dark:bg-white">
+    <div className="px-10 text-center pt-28 max-w-[700px] m-auto md:pb-20 ">
       <p className="text-blue-400 md:text-xl">what's Next</p>
       <p className="mt-4 text-2xl md:text-4xl font-semibold">Get In Touch</p>
       <p className="mt-4 text-slate-400 md:text-lg">
@@ -10,6 +11,7 @@ const GetInTouch = () => {
         project to discuss or just want to say hi, my inbox is open for all!
       </p>
       <button className="mt-10 border-2 border-blue-400  text-blue-400 p-2 px-4 rounded-sm hover:text-blue-200">say Hello</button>
+    </div>
     </div>
   );
 };
