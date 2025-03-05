@@ -3,12 +3,13 @@
 import React, { useState } from 'react';
 import projectsData from './data';
 import Image from 'next/image';
-
+import AnimatedWrapper from '@/app/hooks/AnimatedWrapper';
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
   const visibleProjects = showAll ? projectsData : projectsData.slice(0, 6);
 
   return (
+    <AnimatedWrapper>
     <div className="py-10 px-6 md:px-20 pb-10 md:pb-20 text-white dark:text-slate-500 ">
       <h2 className="text-3xl font-semibold mb-6 text-center">Projects</h2>
       
@@ -64,6 +65,7 @@ const Projects = () => {
         </div>
       )}
     </div>
+    </AnimatedWrapper>
   );
 };
 

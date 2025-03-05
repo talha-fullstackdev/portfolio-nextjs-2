@@ -1,7 +1,8 @@
 import React from "react";
-
+import AnimatedWrapper from "@/app/hooks/AnimatedWrapper";
 const GetInTouch = () => {
   return (
+    <AnimatedWrapper>
     <div className="">
     <div className="px-10 text-center pt-28 max-w-[700px] m-auto md:pb-20 pb-2 ">
       <p className="text-blue-400  md:text-xl">what's Next</p>
@@ -13,6 +14,7 @@ const GetInTouch = () => {
       <button className="mt-10 border border-blue-400  text-blue-400 p-2 px-4 rounded-sm hover:text-blue-200">say Hello</button>
     </div>
     </div>
+    </AnimatedWrapper>
   );
 };
 

@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { SlSocialTwitter } from "react-icons/sl";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
-
+import AnimatedWrapper from '@/app/hooks/AnimatedWrapper';
 const Footer = () => {
   const data = [
     {
@@ -34,7 +34,7 @@ const Footer = () => {
     },
   ]
   return (
-    <div className=" dark:text-slate-500 pt-32 "> 
+    <AnimatedWrapper>    <div className=" dark:text-slate-500 pt-32 "> 
     <div className='flex justify-center gap-7 max-w-[600px] px-10 m-auto '>
        {data.map((item)=>(
         <div key={item.name} className="">
@@ -45,6 +45,7 @@ const Footer = () => {
     </div>
     <p className='mt-6 text-[16px] text-slate-400 dark:text-slate-500 text-center pb-10'>Design & Built By Talha Nawaz</p>
     </div>
+    </AnimatedWrapper>
 
   )
 }

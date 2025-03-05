@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import data from "./data";
-
+import AnimatedWrapper from "@/app/hooks/AnimatedWrapper";
 const WorkDetails = () => {
   const [selectedData, setSelectedData] = useState(data[0]); // Show first item initially
 
@@ -11,6 +11,7 @@ const WorkDetails = () => {
   };
 
   return (
+    <AnimatedWrapper>
     <div className="px-6 md:px-12 md:pt-10 md:pb-20 ">
       <h2 className="text-xl md:text-4xl text-center font-semibold text-white dark:text-slate-500 mb-6 md:tracking-wide">
         Where I've Worked
@@ -53,7 +54,7 @@ const WorkDetails = () => {
         </div>
       </div>
     </div>
-
+    </AnimatedWrapper>
   );
 };
 
