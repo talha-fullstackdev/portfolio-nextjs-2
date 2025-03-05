@@ -13,7 +13,7 @@ const ServicesDetails = () => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="relative group flex cursor-pointer items-center justify-center w-16 h-16 bg-slate-600 rounded-full shadow-md p-2"
+            className="relative group flex cursor-pointer items-center justify-center w-16 h-16 dark:bg-white bg-slate-600 rounded-full shadow-md p-2"
           >
             <Image
               src={item.icon}
