@@ -16,7 +16,7 @@ const Projects = () => {
         {visibleProjects.map((project) => (
           <div 
             key={project.name} 
-            className="p-4 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl"
+            className="p-4 shadow-2xl transition-transform transform hover:-translate-y-1 hover:shadow-xl rounded-xl"
           >
             {/* Project Image */}
             <div className="relative w-full h-52 overflow-hidden">

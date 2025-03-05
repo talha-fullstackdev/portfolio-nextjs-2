@@ -24,7 +24,7 @@ const ServicesDetails = () => {
             />
 
             {/* Tooltip */}
-            <span className="absolute bottom-full mb-2 hidden w-max max-w-[200px] bg-gray-800 text-blue-400 text-xs font-medium px-3 py-2 rounded-md shadow-lg group-hover:block transition-opacity duration-300">
+            <span className="absolute bottom-full mb-2 hidden w-max max-w-[200px] bg-gray-800 dark:text-white text-blue-400 text-xs font-medium px-3 py-2 rounded-md shadow-lg group-hover:block transition-opacity duration-300">
               {item.tooltip}
             </span>
           </div>
