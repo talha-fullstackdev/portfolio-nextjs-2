@@ -5,7 +5,7 @@ import AnimatedWrapper from '@/app/hooks/AnimatedWrapper';
 const Hero = () => {
   return (
     <AnimatedWrapper>
-    <div className=" flex flex-col items-center md:justify-around gap-8 px-5 text-center md:flex-row md:text-left md:gap-14 md:px-16 md:pt-20">
+    <div className=" flex pt-10 flex-col items-center md:justify-around gap-8 px-5 text-center md:flex-row md:text-left md:gap-14 md:px-16 md:pt-20">
       
       {/* Left Content */}
       <div className="flex flex-col gap-4 max-w-2xl">
