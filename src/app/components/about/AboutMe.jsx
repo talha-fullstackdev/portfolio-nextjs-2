@@ -66,20 +66,6 @@ const AboutMe = () => {
           Here are a few technologies I’ve been working with recently:
         </p>
       </div>
-      {/* <div className="mt-6 flex justify-around  md:justify-start md:gap-32 md:px-8">
-        <div className="flex flex-col gap-2 text-slate-400 dark:text-slate-500 list-disc marker:text-blue-500 pl-5">
-          <li>NextJs / TypeScript</li>
-          <li>ReactJs</li>
-          <li>TailwindCSS</li>
-          <li>PostgreSQL</li>
-        </div>
-        <div className="flex flex-col gap-2 text-slate-400 list-disc marker:text-blue-500 pl-5 dark:text-slate-500">
-          <li>NodeJs</li>
-          <li>ExpressJs</li>
-          <li>MongoDB</li>
-          <li>Appwrite</li>
-        </div>
-      </div> */}
 
 <div ref={ref} className="mt-6 flex justify-around md:justify-start md:gap-32 md:px-8">
         {/* First Tech Stack */}
