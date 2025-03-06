@@ -19,18 +19,6 @@ const Projects = () => {
               className="p-4 shadow-2xl transition-transform transform hover:-translate-y-1 hover:shadow-xl rounded-xl"
             >
               {/* Project Image */}
-              {/* <div className="relative w-full h-52 overflow-hidden">
-              <a href={project.link} target='_blank'>
-                <Image 
-                  src={project.image} 
-                  alt="Project image" 
-                 fill
-                 
-                  className="rounded-xl cursor-pointer"
-                  priority
-                />
-              </a>
-            </div> */}
             <a href={project.link} target="_blank">
               <div className="relative w-full h-52 overflow-hidden">
                 <Image
