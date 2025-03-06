@@ -27,24 +27,26 @@ const Navbar = () => {
       document.documentElement.classList.remove("dark");
     }
   }, [darkMode]);
-
+  const scrollToSection = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <ul className="flex dark:text-slate-600 flex-col gap-2 text-lg mt-3 md:flex-row md:justify-center md:items-center md:gap-10 md:mt-0 md:py-2 flex-wrap">
-      <a className={linkStyles} href="">
+      <button className={linkStyles} onClick={()=>scrollToSection("about")} >
         About
-      </a>
-      <a className={linkStyles} href="">
+      </button>
+      <button className={linkStyles} onClick={()=>scrollToSection("skills")} >
         Skills
-      </a>
-      <a className={linkStyles} href="">
+      </button>
+      <button className={linkStyles} onClick={()=>scrollToSection("experience")}>
         Experience
-      </a>
-      <a className={linkStyles} href="">
+      </button>
+      <button className={linkStyles} onClick={()=>scrollToSection("projects")}>
         Projects
-      </a>
-      <a className={linkStyles} href="">
+      </button>
+      <button className={linkStyles} onClick={()=>scrollToSection("contact")} >
         Contact
-      </a>
+      </button>
       <a
         href="../../../../public/Talha Nawaz resume (full stack dev).pdf"
         download="Talha_Resume.pdf"

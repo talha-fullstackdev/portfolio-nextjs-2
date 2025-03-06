@@ -3,7 +3,7 @@ import AnimatedWrapper from "@/app/hooks/AnimatedWrapper";
 const GetInTouch = () => {
   return (
     <AnimatedWrapper>
-    <div className="">
+    <div id="contact">
     <div className="px-10 text-center pt-28 max-w-[700px] m-auto md:pb-20 pb-2 ">
       <p className="text-blue-400  md:text-xl">what's Next</p>
       <p className="mt-4 text-2xl md:text-4xl font-semibold dark:text-slate-500">Get In Touch</p>
