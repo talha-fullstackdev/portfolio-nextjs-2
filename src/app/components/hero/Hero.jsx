@@ -1,8 +1,12 @@
+"use client"
 import React from 'react';
 import Image from 'next/image'; // Correct import
 import profileImage from '../../../assets/images/profile.webp'; // Correct import
 import AnimatedWrapper from '@/app/hooks/AnimatedWrapper';
+import { motion } from 'framer-motion';
 const Hero = () => {
+  const sentence = "I build complex ideas into scalable web ecosystems.";
+
   return (
     <AnimatedWrapper>
     <div className=" flex pt-10 flex-col items-center md:justify-around gap-8 px-5 text-center md:flex-row md:text-left md:gap-14 md:px-16 md:pt-20">
@@ -14,8 +18,18 @@ const Hero = () => {
           Talha Nawaz.
         </h1>
         <p className="text-slate-400 text-2xl font-semibold sm:text-3xl md:text-5xl">
-          I build complex ideas into scalable web ecosystems.
-        </p>
+      {sentence.split(" ").map((word, index) => (
+        <motion.span
+          key={index}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: index * 0.2 }}
+          className="inline-block mr-2"
+        >
+          {word}
+        </motion.span>
+      ))}
+    </p>
         <p className="text-slate-500 text-base sm:text-lg md:text-xl max-w-lg mx-auto md:mx-0 md:mt-4">
           I design and deploy full-stack solutions that solve real-world problems, 
           from dynamic SaaS platforms to fully AI-integrated web applications. 
