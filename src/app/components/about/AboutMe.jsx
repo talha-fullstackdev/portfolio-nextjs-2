@@ -1,5 +1,23 @@
-import React from "react";
+"use client"
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
+const listItemVariants = {
+  hidden: { opacity: 0, x: -50 },
+  visible: (index) => ({
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 0.7,
+      ease: "easeOut",
+      delay: index * 0.2, // Staggered effect
+    },
+  }),
+};
 const AboutMe = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const techStack1 = ["NextJs / TypeScript", "ReactJs", "TailwindCSS", "PostgreSQL"];
+  const techStack2 = ["NodeJs", "ExpressJs", "MongoDB", "Appwrite"];
   return (
     <div className="md:w-[800px] "  id="about">
       <div className="md:px-8">
@@ -48,7 +66,7 @@ const AboutMe = () => {
           Here are a few technologies I’ve been working with recently:
         </p>
       </div>
-      <div className="mt-6 flex justify-around  md:justify-start md:gap-32 md:px-8">
+      {/* <div className="mt-6 flex justify-around  md:justify-start md:gap-32 md:px-8">
         <div className="flex flex-col gap-2 text-slate-400 dark:text-slate-500 list-disc marker:text-blue-500 pl-5">
           <li>NextJs / TypeScript</li>
           <li>ReactJs</li>
@@ -61,6 +79,34 @@ const AboutMe = () => {
           <li>MongoDB</li>
           <li>Appwrite</li>
         </div>
+      </div> */}
+
+<div ref={ref} className="mt-6 flex justify-around md:justify-start md:gap-32 md:px-8">
+        {/* First Tech Stack */}
+        <motion.ul
+          className="flex flex-col gap-2 text-slate-400 dark:text-slate-500 list-disc marker:text-blue-500 pl-5"
+          initial="hidden"
+          animate={isInView ? "visible" : "hidden"}
+        >
+          {techStack1.map((tech, index) => (
+            <motion.li key={tech} variants={listItemVariants} custom={index}>
+              {tech}
+            </motion.li>
+          ))}
+        </motion.ul>
+
+        {/* Second Tech Stack */}
+        <motion.ul
+          className="flex flex-col gap-2 text-slate-400 list-disc marker:text-blue-500 pl-5 dark:text-slate-500"
+          initial="hidden"
+          animate={isInView ? "visible" : "hidden"}
+        >
+          {techStack2.map((tech, index) => (
+            <motion.li key={tech} variants={listItemVariants} custom={index}>
+              {tech}
+            </motion.li>
+          ))}
+        </motion.ul>
       </div>
     </div>
   );
