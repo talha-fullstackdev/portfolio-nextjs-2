@@ -38,7 +38,7 @@ const Footer = () => {
     <div className='flex justify-center gap-7 max-w-[600px] px-10 m-auto '>
        {data.map((item)=>(
         <div key={item.name} className="">
-          <a className='text-2xl cursor-pointer dark:hover:text-blue-500 hover:text-blue-400' title={item.name} href={item.link}>{item.icon}</a>
+          <a className='text-2xl cursor-pointer dark:hover:text-blue-500 hover:text-blue-400' target='_blank' title={item.name} href={item.link}>{item.icon}</a>
         </div>
        ))}
         
