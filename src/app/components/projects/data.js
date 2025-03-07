@@ -75,7 +75,7 @@ const projectsData = [
         image:shopmate,
         tech:"react | tailwindcss  |  redux",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
-        link:"https://talha-redux.netlify.app/",
+        link:"https://shopmate-tn.netlify.app/",
         date:"2024",
         githubIcon:<FiGithub />,
         linkIcon:<HiOutlineExternalLink />,
