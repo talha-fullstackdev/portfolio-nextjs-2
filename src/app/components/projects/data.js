@@ -8,6 +8,8 @@ import todo from "../../../assets/images/todo.png"
 import wordcounter from "../../../assets/images/word-counter.png"
 import bytewise from "../../../assets/images/bytewise.JPG"
 import bytewiseLearning from "../../../assets/images/bytewise-learning.JPG"
+import digian from "../../../assets/images/digian.JPG"
+import finter from "../../../assets/images/finter.JPG"
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
@@ -104,6 +106,26 @@ const projectsData = [
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
         link:"https://bytewiselearning.netlify.app/",
         date:"2025",
+        githubIcon:<FiGithub />,
+        linkIcon:<HiOutlineExternalLink />,
+    },
+    {
+        name:"Digian",
+        image:digian,
+        tech:"Html  | CSS  |  javascript",
+        github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
+        link:"https://talha-tn.github.io/digian/",
+        date:"2024",
+        githubIcon:<FiGithub />,
+        linkIcon:<HiOutlineExternalLink />,
+    },
+    {
+        name:"Finter",
+        image:finter,
+        tech:"Html  | CSS  |  javascript",
+        github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
+        link:"https://talha-tn.github.io/finter/",
+        date:"2024",
         githubIcon:<FiGithub />,
         linkIcon:<HiOutlineExternalLink />,
     },
