@@ -48,9 +48,9 @@ const Navbar = () => {
         Contact
       </button>
       <a
-        href="../../../../public/Talha Nawaz resume (full stack dev).pdf"
-        download="Talha_Resume.pdf"
+        href="https://drive.google.com/file/d/158CbndLQkxvmPRaMcQEzxMUN9XSF6IPB/view?usp=sharing"
         className="relative text-blue-400 border p-1 px-2 rounded-md border-blue-400 overflow-hidden group"
+        target="_blank"
       >
         <span className="absolute inset-0 border-2 border-blue-400 rounded-md animate-border-glow"></span>
         <span className="relative z-10 dark:text-black dark:hover:text-blue-400 hover:text-slate-300">Resume</span>
