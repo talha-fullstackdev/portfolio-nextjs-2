@@ -104,7 +104,7 @@ const projectsData = [
         image:bytewiseLearning,
         tech:"react  | tailwindcss",
         github:"https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
-        link:"https://bytewiselearning.netlify.app/",
+        link:"https://bytewise-learning.netlify.app/",
         date:"2025",
         githubIcon:<FiGithub />,
         linkIcon:<HiOutlineExternalLink />,
