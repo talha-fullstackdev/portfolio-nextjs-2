@@ -130,7 +130,7 @@ const projectsData = [
     tech: "Html  | CSS  |  javascript",
     github:
       "https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
-    link: "https://talha-tn.github.io/digian/",
+    link: "https://talha-fullstackdev.github.io/digian/",
     date: "2024",
     githubIcon: <FiGithub />,
     linkIcon: <HiOutlineExternalLink />,
@@ -141,7 +141,7 @@ const projectsData = [
     tech: "Html  | CSS  |  javascript",
     github:
       "https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
-    link: "https://talha-tn.github.io/finter/",
+    link: "https://talha-fullstackdev.github.io/finter/",
     date: "2024",
     githubIcon: <FiGithub />,
     linkIcon: <HiOutlineExternalLink />,
