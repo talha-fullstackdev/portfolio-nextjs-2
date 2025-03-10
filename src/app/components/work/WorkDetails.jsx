@@ -13,7 +13,7 @@ const WorkDetails = () => {
   return (
     <AnimatedWrapper>
     <div className="px-10 md:px-12 md:pt-32 md:pb-20  pt-20" id="experience">
-      <h2 className="text-3xl  md:text-4xl text-center font-semibold text-white dark:text-slate-500 mb-6 md:tracking-wide">
+      <h2 className="text-2xl  md:text-3xl text-center font-semibold text-white dark:text-slate-500 mb-6 md:tracking-wide">
         Where I've Worked
       </h2>
 

@@ -38,7 +38,7 @@ const ServicesDetails = () => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }} // Trigger when 20% is in view
     >
-      <h2 className="text-center text-3xl font-semibold text-gray-400 dark:text-slate-500">
+      <h2 className="text-center text-2xl md:text-3xl font-semibold text-gray-400 dark:text-slate-500">
         Full Stack Development
       </h2>
 

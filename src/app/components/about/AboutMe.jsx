@@ -22,7 +22,7 @@ const AboutMe = () => {
     <div className="md:w-[800px] "  id="about">
       <div className="md:px-8">
         <h2 className="text-3xl font-bold text-white dark:text-slate-500 text-center md:text-start">About Me</h2>
-        <p className="mt-6 text-[18px] text-slate-400 dark:text-slate-500">
+        <p className="mt-6 text-sm md:text-[18px] text-slate-400 dark:text-slate-500">
           Hi, I’m Talha Nawaz, a graduate with a BS in Software Engineering from{" "}
           <span className="text-blue-400 hover:underline hover:underline-offset-4">
             <a href="https://lgu.edu.pk/" target="_blank">
@@ -44,7 +44,7 @@ const AboutMe = () => {
       </div>
       <div className="mt-4 md:px-10 ">
         <p className="mt-4 text-blue-400 text-xl font-semibold">Activities :</p>
-        <p className="mt-2 text-slate-400 dark:text-slate-500">
+        <p className="mt-2 text-slate-400 dark:text-slate-500 text-sm md:text-[18px]">
           As a Microsoft Learn Student Ambassador and Membership Coordinator at
           LGU, I organized tech workshops and events, bridging academia and
           industry trends while fostering innovation. Passionate about
@@ -56,13 +56,13 @@ const AboutMe = () => {
           problem-solving skills. My robust GitHub presence reflects my
           commitment to community-driven, real-world solutions.
         </p>
-        <p className="mt-4 text-blue-400">
+        <p className="mt-4 text-blue-400 text-sm md:text-[16px]">
           Microsoft Learn Student Ambassador (MLSA-β)
         </p>
-        <p className="text-blue-400">
+        <p className="text-blue-400 text-sm md:text-[16px]">
           Microsoft Learn Student Ambassador (MLSA-β)
         </p>
-        <p className="mt-8 text-slate-400">
+        <p className="mt-8 text-slate-400 text-sm md:text-[16px]">
           Here are a few technologies I’ve been working with recently:
         </p>
       </div>
@@ -70,7 +70,7 @@ const AboutMe = () => {
 <div ref={ref} className="mt-6 flex justify-around md:justify-start md:gap-32 md:px-8">
         {/* First Tech Stack */}
         <motion.ul
-          className="flex flex-col gap-2 text-slate-400 dark:text-slate-500 list-disc marker:text-blue-500 pl-5"
+          className="flex flex-col gap-2 text-slate-400 dark:text-slate-500 list-disc marker:text-blue-500 pl-5 text-sm md:text-[15px]"
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
         >
@@ -83,7 +83,7 @@ const AboutMe = () => {
 
         {/* Second Tech Stack */}
         <motion.ul
-          className="flex flex-col gap-2 text-slate-400 list-disc marker:text-blue-500 pl-5 dark:text-slate-500"
+          className=" flex flex-col gap-2 text-slate-400 list-disc marker:text-blue-500 pl-5 dark:text-slate-500 text-sm md:text-[18px]"
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
         >

@@ -9,7 +9,7 @@ const Services = () => {
   return (
  <AnimatedWrapper>
     <div className='px-10 md:pt-20  md:px-12 ' id='skills'> 
-        <h2  className='text-3xl text-white dark:text-slate-500 font-bold text-center md:tracking-wide'>
+        <h2  className='text-2xl md:text-3xl text-white dark:text-slate-500 font-bold text-center md:tracking-wide'>
         {sentence.split(" ").map((word, index) => (
         <motion.span
           key={index}

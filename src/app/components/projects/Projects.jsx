@@ -38,7 +38,7 @@ const Projects = () => {
     <div id="projects">
       <AnimatedWrapper>
         <div className="py-10 px-6 md:px-20 pb-10 md:pb-20 text-white dark:text-slate-500">
-          <h2 className="text-3xl font-semibold mb-6 text-center">Projects</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-center">Projects</h2>
 
           <motion.div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"

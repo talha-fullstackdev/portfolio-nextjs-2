@@ -6,7 +6,7 @@ const GetInTouch = () => {
     <div id="contact">
     <div className="px-10 text-center pt-28 max-w-[700px] m-auto md:pb-20 pb-2 ">
       <p className="text-blue-400  md:text-xl">what's Next</p>
-      <p className="mt-4  md:text-4xl  dark:text-slate-500 text-white text-3xl font-bold">Get In Touch</p>
+      <p className="mt-4  md:text-4xl  dark:text-slate-500 text-white text-2xl font-semibold md:font-bold">Get In Touch</p>
       <p className="mt-4 text-slate-400 dark:text-slate-500 md:text-lg">
         I am eager to collaborate and expand my knowledge. Whether you have a
         project to discuss or just want to say hi, my inbox is open for all!
