@@ -12,18 +12,18 @@ const WorkDetails = () => {
 
   return (
     <AnimatedWrapper>
-    <div className="px-6 md:px-12 md:pt-32 md:pb-20 " id="experience">
+    <div className="px-10 md:px-12 md:pt-32 md:pb-20  pt-20" id="experience">
       <h2 className="text-xl md:text-4xl text-center font-semibold text-white dark:text-slate-500 mb-6 md:tracking-wide">
         Where I've Worked
       </h2>
 
-      <div className="flex flex-col md:flex-row md:justify-center md:gap-6">
-        <div className="flex md:flex-col space-x-4 md:space-x-0 md:space-y-4 mb-4 md:mb-0">
+      <div className="flex flex-col md:flex-row md:justify-center md:gap-6 flex-wrap">
+        <div className="flex gap-2 md:flex-col  md:space-x-0 md:space-y-4 mb-4 md:mb-0">
           {data.map((item) => (
             <button
               key={item.id}
               onClick={() => handleClick(item.id)}
-              className={`px-4 py-2 rounded-md transition duration-300  ${
+              className={`px-4 text-center py-1 md:py-2 rounded-md transition duration-300   ${
                 selectedData.id === item.id
                   ? "bg-blue-500 text-white "
                   : "bg-gray-200 hover:bg-gray-300 text-gray-800 "
