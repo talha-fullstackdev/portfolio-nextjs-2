@@ -43,7 +43,7 @@ const ServicesDetails = () => {
       </h2>
 
       <motion.div
-        className="mt-6 flex flex-wrap justify-center gap-8 md:w-[600px]"
+        className="mt-6 flex flex-wrap justify-center gap-4 md:w-[600px]"
         variants={containerVariants} // Apply staggered animation
       >
         {data.map((item, index) => (
