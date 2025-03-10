@@ -13,11 +13,11 @@ const WorkDetails = () => {
   return (
     <AnimatedWrapper>
     <div className="px-10 md:px-12 md:pt-32 md:pb-20  pt-20" id="experience">
-      <h2 className="text-xl md:text-4xl text-center font-semibold text-white dark:text-slate-500 mb-6 md:tracking-wide">
+      <h2 className="text-3xl  md:text-4xl text-center font-semibold text-white dark:text-slate-500 mb-6 md:tracking-wide">
         Where I've Worked
       </h2>
 
-      <div className="flex flex-col md:flex-row md:justify-center md:gap-6 flex-wrap">
+      <div className="flex pt-4 md:pt-0 flex-col md:flex-row md:justify-center md:gap-6 flex-wrap">
         <div className="flex gap-2 md:flex-col  md:space-x-0 md:space-y-4 mb-4 md:mb-0">
           {data.map((item) => (
             <button
