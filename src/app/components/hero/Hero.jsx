@@ -30,7 +30,7 @@ const Hero = () => {
         </motion.span>
       ))}
     </p>
-        <p className="text-slate-500 text-base sm:text-lg md:text-xl max-w-lg mx-auto md:mx-0 md:mt-4">
+        <p className="text-slate-300 dark:text-slate-600 text-base sm:text-lg md:text-xl max-w-lg mx-auto md:mx-0 md:mt-4">
           I design and deploy full-stack solutions that solve real-world problems, 
           from dynamic SaaS platforms to fully AI-integrated web applications. 
           My toolkit? Next.js for speed, Node.js for power, and SQL/NoSQL databases for precision.
