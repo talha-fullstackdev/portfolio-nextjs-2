@@ -21,7 +21,7 @@ const AboutMe = () => {
   return (
     <div className="md:w-[800px] "  id="about">
       <div className="md:px-8">
-        <h2 className="text-3xl font-bold text-white dark:text-slate-500">About Me</h2>
+        <h2 className="text-3xl font-bold text-white dark:text-slate-500 text-center md:text-start">About Me</h2>
         <p className="mt-6 text-[18px] text-slate-400 dark:text-slate-500">
           Hi, I’m Talha Nawaz, a graduate with a BS in Software Engineering from{" "}
           <span className="text-blue-400 hover:underline hover:underline-offset-4">
