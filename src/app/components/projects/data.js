@@ -10,6 +10,7 @@ import bytewise from "../../../assets/images/bytewise.JPG";
 import bytewiseLearning from "../../../assets/images/bytewise-learning.JPG";
 import digian from "../../../assets/images/digian.JPG";
 import finter from "../../../assets/images/finter.JPG";
+import pronto from "../../../assets/images/pronto.JPG";
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
@@ -54,6 +55,17 @@ const projectsData = [
     github:
       "https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
     link: "https://talha-tn.github.io/Figma-layout/",
+    date: "2024",
+    githubIcon: <FiGithub />,
+    linkIcon: <HiOutlineExternalLink />,
+  },
+  {
+    name: "Pronto",
+    image: pronto,
+    tech: "react  |  tailwindcss  |",
+    github:
+      "https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
+    link: "https://prontotn.netlify.app/",
     date: "2024",
     githubIcon: <FiGithub />,
     linkIcon: <HiOutlineExternalLink />,
