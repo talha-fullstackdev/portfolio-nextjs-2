@@ -49,7 +49,7 @@ const Navbar = () => {
       </button>
       <a
         href="https://drive.google.com/file/d/158CbndLQkxvmPRaMcQEzxMUN9XSF6IPB/view?usp=sharing"
-        className="relative text-blue-400 border p-1 px-2 rounded-md border-blue-400 overflow-hidden group hover:rotate-[360deg] transition-all duration-500"
+        className="relative text-blue-400 border p-1 px-2 rounded-md border-blue-400 overflow-hidden group hover:rotate-12 transition-all duration-500"
         target="_blank"
         title="download resume?"
       >
