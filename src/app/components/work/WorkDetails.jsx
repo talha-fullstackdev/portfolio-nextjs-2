@@ -23,7 +23,7 @@ const WorkDetails = () => {
             <button
               key={item.id}
               onClick={() => handleClick(item.id)}
-              className={`px-4 text-center py-1 md:py-2 rounded-md transition duration-300   ${
+              className={`px-4 text-center py-1 md:py-2 rounded-md  hover:rotate-6 transition-all duration-500   ${
                 selectedData.id === item.id
                   ? "bg-blue-500 text-white "
                   : "bg-gray-200 hover:bg-gray-300 text-gray-800 "
