@@ -7,7 +7,7 @@ const Footer = () => {
     <AnimatedWrapper>    <div className=" dark:text-slate-500 pt-32 "> 
     <div className='flex justify-center gap-7 max-w-[600px] px-10 m-auto '>
        {data.map((item)=>(
-        <div key={item.name} className="">
+        <div key={item.name} className=" hover:rotate-[360deg] transition-all duration-1000">
           <a className='text-2xl cursor-pointer dark:hover:text-blue-500 hover:text-blue-400' target='_blank' title={item.name} href={item.link}>{item.icon}</a>
         </div>
        ))}
