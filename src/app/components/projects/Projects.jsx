@@ -33,7 +33,6 @@ const itemVariants = {
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
   const visibleProjects = showAll ? projectsData : projectsData.slice(0, 6);
-
   return (
     <div id="projects">
       <AnimatedWrapper>
