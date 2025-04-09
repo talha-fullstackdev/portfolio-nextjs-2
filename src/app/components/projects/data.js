@@ -11,6 +11,8 @@ import bytewiseLearning from "../../../assets/images/bytewise-learning.JPG";
 import digian from "../../../assets/images/digian.JPG";
 import finter from "../../../assets/images/finter.JPG";
 import pronto from "../../../assets/images/pronto.JPG";
+import imgtopdf from "../../../assets/images/imgtopdf.JPG";
+import styleshop from "../../../assets/images/styleshop.JPG";
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
@@ -154,6 +156,28 @@ const projectsData = [
     github:
       "https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
     link: "https://talha-fullstackdev.github.io/finter/",
+    date: "2024",
+    githubIcon: <FiGithub />,
+    linkIcon: <HiOutlineExternalLink />,
+  },
+  {
+    name: "StyleShop",
+    image: styleshop,
+    tech: "react  | tailwindcss  |  javascript",
+    github:
+      "https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
+    link: "https://styleshop.vercel.app/",
+    date: "2024",
+    githubIcon: <FiGithub />,
+    linkIcon: <HiOutlineExternalLink />,
+  },
+  {
+    name: "Images to pdf",
+    image: imgtopdf,
+    tech: "nextjs  | typescript  |  tailwindcss",
+    github:
+      "https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
+    link: "https://images-to-pdf-gold.vercel.app/",
     date: "2024",
     githubIcon: <FiGithub />,
     linkIcon: <HiOutlineExternalLink />,
