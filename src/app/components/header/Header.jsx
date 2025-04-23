@@ -7,10 +7,9 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
     <AnimatedWrapper>
-      <div className={`flex ${isOpen && "flex-col"} px-6  gap-4 justify-between items-center md:flex-row md:justify-between md:px-14 md:pt-4 flex-wrap pt-4`}>
+      <div className={`flex ${isOpen && "flex-col"} px-6  gap-4 justify-between items-center md:flex-row md:justify-between md:px-14 md:pt-4 flex-wrap pt-4 `}>
         <Logo />
 
         {/* Toggle Button (Only on Small Screens) */}
@@ -29,5 +28,4 @@ const Header = () => {
     </AnimatedWrapper>
   );
 };
-
 export default Header;
