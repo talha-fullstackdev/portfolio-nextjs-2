@@ -75,6 +75,7 @@ const Projects = () => {
                     </p>
                     <div className="flex gap-2">
                       <a
+                      title="github"
                         className="text-lg hover:text-blue-400 cursor-pointer"
                         href={project.github}
                         target="_blank"
@@ -82,6 +83,7 @@ const Projects = () => {
                         {project.githubIcon}
                       </a>
                       <a
+                      title="open project"
                         className="text-lg hover:text-blue-400 cursor-pointer"
                         href={project.link}
                         target="_blank"
