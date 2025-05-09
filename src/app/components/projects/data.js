@@ -13,6 +13,7 @@ import finter from "../../../assets/images/finter.JPG";
 import pronto from "../../../assets/images/pronto.JPG";
 import imgtopdf from "../../../assets/images/imgtopdf.JPG";
 import styleshop from "../../../assets/images/styleshop.JPG";
+
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
 

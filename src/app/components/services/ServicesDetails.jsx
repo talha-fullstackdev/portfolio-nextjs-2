@@ -55,7 +55,7 @@ const ServicesDetails = () => {
             <motion.div
               whileHover={{ scale: 1.1, rotate: 6, transition: { duration: 0.3 } }} // Hover effect
             >
-              <Image src={item.icon} alt="image" title={item.tooltip} width={40} height={40} />
+              <Image src={item.icon} alt="image" title={item.tooltip} width={40} height={40} className="rounded-md" />
             </motion.div>
 
             {/* Tooltip Animation */}
