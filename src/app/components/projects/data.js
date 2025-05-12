@@ -57,7 +57,7 @@ const projectsData = [
     tech: "html  |  css  |  javascript",
     github:
       "https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
-    link: "https://talha-tn.github.io/Figma-layout/",
+    link: "https://figma-layout-three.vercel.app/",
     date: "2024",
     githubIcon: <FiGithub />,
     linkIcon: <HiOutlineExternalLink />,
