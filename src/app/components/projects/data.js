@@ -13,6 +13,7 @@ import finter from "../../../assets/images/finter.JPG";
 import pronto from "../../../assets/images/pronto.JPG";
 import imgtopdf from "../../../assets/images/imgtopdf.JPG";
 import styleshop from "../../../assets/images/styleshop.JPG";
+import playstation from "../../../assets/images/playstation.JPG"
 
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -80,6 +81,17 @@ const projectsData = [
     github:
       "https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
     link: "https://cinemate-talhanawaz.netlify.app/",
+    date: "2024",
+    githubIcon: <FiGithub />,
+    linkIcon: <HiOutlineExternalLink />,
+  },
+  {
+    name: "playstaion",
+    image: playstation,
+    tech: "html  | css  | javascript",
+    github:
+      "https://github.com/talha-fullstackdev?tab=overview&from=2025-02-01&to=2025-02-07",
+    link: "https://playstation-clone-inky.vercel.app/",
     date: "2024",
     githubIcon: <FiGithub />,
     linkIcon: <HiOutlineExternalLink />,
